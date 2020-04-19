@@ -15,19 +15,34 @@
 </head>
 <body>
     <header>
-        <div class=" navbar-fixed ">
-            <nav class="navbar z-depth-0">
-                <div class="nav-wrapper container">
-                    <h1 class="logo_text"> Jociel Jesus </h1>
-                    <a href=""> <img class="logo_img" src="img/logo.png" alt="jociel jesus "></a>
+        <!--MENU MOBILE-->
+        <ul id="mobile-demo" class="sidenav" >
+            <li><a class="sidenav-close" href="#home"> Home </a></li>
+            <li><a class="sidenav-close" href="#quem-sou"> Quem Sou </a></li>
+            <li><a class="sidenav-close" href="#certificacoes"> Certificações </a></li>
+            <li><a class="sidenav-close" href="#redes-sociais"> Redes Sociais </a></li>
+            <li><a class="sidenav-close"  href="#fale-comigo"> Fale Comigo </a></li>
+        </ul>   
+        
 
-                    <ul class="right ">
+        <div class=" navbar-fixed ">
+            <nav class="navbar z-depth-2">
+                <div class="nav-wrapper container">
+                    
+                    <a href="#"> <img class="logo-img left" src="img/logo.png"></a>
+
+                    <ul class="right hide-on-med-and-down">
                         <li><a href="#home"> Home </a></li>
                         <li><a href="#quem-sou"> Quem Sou </a></li>
                         <li><a href="#certificacoes"> Certificações </a></li>
                         <li><a href="#redes-sociais"> Redes Sociais </a></li>
                         <li><a href="#fale-comigo"> Fale Comigo </a></li>
-                    </ul>     
+                    </ul>   
+                    
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons"> menu</i></a>
+
+                    
+
                 </div>
             </nav>
         </div>
@@ -54,8 +69,8 @@
                   <p class="texto_justificado"> Nascido em 1997 numa cidade chamada Olindina um município 
                       brasileiro do estado da Bahia localizado em um entroncamento rodoviário regional a 43,7 km da cidade sergipana 
                       de Tobias Barreto e distante aproximadamente 200 km da capital baiana, Salvador. Filho do Sr. Jonas e a Sra. Clarinda
-                    é o único em meio a quatro meninas e residiu até o termino do ensino médio com seus 17 anos com seus pais. Saiu de casa e 
-                    atualmente reside em Feira de Santana tambem na Bahia com sua noiva Jéssica, cursa o último período do curso de Desenvolvimento de Sistemas 
+                    é o único em meio a quatro meninas e residiu até o término do ensino médio com seus 17 anos com seus pais. Saiu de casa e 
+                    atualmente reside em Feira de Santana também na Bahia com sua noiva Jéssica, cursa o último período do curso de Desenvolvimento de Sistemas 
                     ofertado pelo Senai Bahia e trabalha na Secretaria de Desenvolvimento Social da mesma cidade. Cheio de Sonhos, busca aperfeiçoamento
                 pessoal e profissional a todo momento e sonha um dia poder trabalhar desenvolvendo sistemas voltados a área de tecnologia assistiva 
                 e acessibilidade.</p>
@@ -81,7 +96,32 @@
               </div>
           </div>
           <div class="row container">
-              <!-- Omni Stack -->
+              <!-- JAVA SCRIPT DAY -->
+              <article class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/jsday.jpg"  class="materialboxed" width="100%">
+                      <a href="#jsday-modal" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                      <h5>Java Script Day</h5>
+                      <p>Evento JSday Brasil Conference realizado na cidade de Feira de Santana.</p>
+                    </div>
+                </div>
+                <!-- MODAL JS DAY-->
+                <div class="modal" id="jsday-modal">
+                    <div class="modal-content">
+                      <h3> JSday Feira de Santana </h3>
+                        <img src="img/jsday.jpg" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn btn-modal modal-action modal-close"> Sair </a>
+                    </div>
+                </div>
+            </article>
+              <!-- OMNISTACK -->
               <article class="col s6 m4 l3">
                   <div class="card">
                       <div class="card-image">
@@ -95,7 +135,7 @@
                         <p>Ofertada pela Rocketseat e ministrada por Diego Schell Fernandes.</p>
                       </div>
                   </div>
-                  <!-- Modal Omni-->
+                  <!-- MODAL OMNISTACC-->
                   <div class="modal" id="omni-modal">
                       <div class="modal-content">
                         <h3> 11ª Semana OmniStack </h3>
@@ -106,6 +146,7 @@
                       </div>
                   </div>
               </article>
+                <!-- BANCO DE DADOS -->
               <article class="col s6 m4 l3">
                 <div class="card">
                     <div class="card-image">
@@ -130,6 +171,7 @@
                     </div>
                 </div>
             </article>
+            <!-- DESIGN RESPONSIVO -->
             <article class="col s6 m4 l3">
                 <div class="card">
                     <div class="card-image">
@@ -154,6 +196,7 @@
                     </div>
                 </div>
             </article>
+            <!-- SCRUM -->
             <article class="col s6 m4 l3">
                 <div class="card">
                     <div class="card-image">
@@ -200,7 +243,7 @@
                     <div class="card-content">
                     </div>
                 </div>
-                 <!-- MODAL SCRUM-->
+                 <!-- MODAL FACEBOOK-->
                  <div class="modal" id="facebook">
                     <div class="modal-content">
                       <h3> Facebook </h3>
@@ -223,7 +266,7 @@
                     <div class="card-content">
                     </div>
                 </div>
-                 <!-- MODAL SCRUM-->
+                 <!-- MODAL GITHUB-->
                  <div class="modal" id="github">
                     <div class="modal-content">
                       <h3> Github </h3>
@@ -246,7 +289,7 @@
                     <div class="card-content">
                     </div>
                 </div>
-                 <!-- MODAL SCRUM-->
+                 <!-- MODAL INSTAGRAN-->
                  <div class="modal" id="instagran">
                     <div class="modal-content">
                       <h3> Instagran </h3>
@@ -257,7 +300,7 @@
                     </div>
                 </div>
             </article>
-            <!-- Linkedin -->
+            <!-- LINKEDIN -->
             <article class="col s4 m3 l2">
                 <div class="card">
                     <div class="card-image">
@@ -269,7 +312,7 @@
                     <div class="card-content">
                     </div>
                 </div>
-                 <!-- MODAL SCRUM-->
+                 <!-- MODAL LINKEDIN-->
                  <div class="modal" id="linkedin">
                     <div class="modal-content">
                       <h3> Linkedin </h3>
@@ -292,7 +335,7 @@
                     <div class="card-content">
                     </div>
                 </div>
-                 <!-- MODAL SCRUM-->
+                 <!-- MODAL TWITTER -->
                  <div class="modal" id="twitter">
                     <div class="modal-content">
                       <h3> Twitter </h3>
@@ -315,7 +358,7 @@
                     <div class="card-content">
                     </div>
                 </div>
-                 <!-- MODAL SCRUM-->
+                 <!-- MODAL WHATSAPP-->
                  <div class="modal" id="whatsapp">
                     <div class="modal-content">
                       <h3> Whatsapp </h3>
@@ -388,6 +431,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><!--MATERIALIZE-->
        <!--Java Script-->
        <script>
+            
+    $('.sidenav').sidenav();
             //INICIALIZAÇÃO
             $(document).ready(function(){
                 $(".scrollspy").scrollSpy({
@@ -399,7 +444,10 @@
                 });
                 // MODAL
                 $(".modal").modal();
-
+                //MENU MOBILE
+                $('.sidenav').sidenav();
+                //TABS
+                $("ul.tabs").tabs();
                 //AUTOPLAY
                 function autoplay(){
                     $(".carousel").carousel("next");

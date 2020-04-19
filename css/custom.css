@@ -1,11 +1,12 @@
 html, body { height: 100%;}
 .bloco{  min-height: 100%; padding-top: 94px;}
+/*
+body{background-color:rgb(197, 197, 197) ;}*/
 
-body{background-color:rgb(197, 197, 197) ;}
-
+body{ background-image: url("../img/plano.png"); color:whitesmoke;}
 /* LOGO */
-.logo_text{ font-size: 0; margin: 0;}
-.logo_img{width: 100px; margin-top: 6px;}
+.logo-text{ font-size: 0; margin: 0;}
+.logo-img{width: 100px; margin-top: 6px;}
 .logo-rodape{width: 50px;}
 
 
@@ -15,7 +16,6 @@ body{background-color:rgb(197, 197, 197) ;}
 .nav-color{ background-color: rgb(63, 72, 204); }
 
 /* HOME */
-.home{  animation: mudarbg 10s infinite;  background-repeat: no-repeat;  background-size:cover ;}
 .banner h2{ font-size: 2.5rem; font-weight: 900; text-transform: uppercase;}
 .banner p{ font-size:1.8rem; font-weight: 500; line-height: 1.8rem; }
 
@@ -28,11 +28,15 @@ body{background-color:rgb(197, 197, 197) ;}
 .certificacoes h2::after{ content: " "; display: block; width: 100%; border-top: solid; color: rgb(63, 72, 204); margin: 15px;  }
 .certificacoes p{ line-height: 1.8rem; }
 .certificacoes .card{ background-color: rgb(63, 72, 204); color: white;}
+.certificacoes h5{ font-size: 1.2rem; text-transform: uppercase; font-weight: 700;}
+.certificacoes h3{ font-size: 2rem; text-transform: uppercase; font-weight: 900; color: rgb(63, 72, 204);}
+
 
 /*REDES SOCIAIS */
 .redes-sociais h2::after{ content: " "; display: block; width: 100%; border-top: solid; color: rgb(63, 72, 204); margin: 15px;  }
 .redes-sociais p{ line-height: 1.8rem; }
 .redes-sociais .card{ background-color: transparent;}
+.redes-sociais h3{ color: rgb(63, 72, 204);font-size: 2.0rem; text-transform: uppercase; font-weight: 900;}
 
 /*FALE COMIGO */
 .fale-comigo h4{ font-size: 1.2rem; text-transform: uppercase; font-weight: 900;}
@@ -53,6 +57,7 @@ nav {
   width: 100%;
   height: 110px;
   line-height: 110px;
+  font-size: 1.2rem; text-transform: uppercase; font-weight: 700;}
 }
 nav.nav-extended .nav-wrapper {
   min-height: 110px;
@@ -64,7 +69,7 @@ nav.nav-extended .nav-wrapper {
   height: 94px;
   z-index: 997;
 }
-.modal-close{ min-width: 200px; min-height: 50px;  font-size:1.5em; border-radius: 5px;}
+.modal-close{ min-width: 150px; min-height: 40px;border-radius: 5px; font-size: 1.2rem; text-transform: uppercase; font-weight: 800;}}
 .modal-close:hover{ background-color: black;}
 
 .btn:hover{ background-color: black;}
@@ -72,6 +77,23 @@ nav.nav-extended .nav-wrapper {
     background-color: rgba(63, 72, 204);
 } 
 
+
+/* NAV BAR DO MOBILE*/
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: block;
+  font-size: 36px;
+  height: 94px;
+  line-height: 110px;
+}
+
+.sidenav {
+  background-image: url("../img/plano.png");
+  margin-top: 110px;
+}
+.sidenav li>a{ color:whitesmoke; font-size: 1.2rem; text-transform: uppercase; font-weight:900;}
+.sidenav a:hover{ color: rgb(63, 72, 204);}
 
 
 /*MEDIA*/
