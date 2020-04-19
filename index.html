@@ -16,46 +16,406 @@
 <body>
     <header>
         <div class=" navbar-fixed ">
-        <nav class="navbar z-depth-0">
-            <div class="nav-wrapper container ">
-                <h1 class="logo_text"> Jociel Jesus </h1>
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <h1 class="logo_text"> Jociel Jesus </h1>
                     <a href=""> <img class="logo_img" src="img/logo.png" alt="jociel jesus "></a>
 
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href=""> Home </a></li>
-                        <li><a href=""> Quem Sou </a></li>
-                        <li><a href=""> Certificações </a></li>
-                        <li><a href=""> Experiencias </a></li>
-                        <li><a href=""> Redes Sociais </a></li>
-                        <li><a href=""> Fale Comigo </a></li>
-                    </ul>
-
-                <a href="#" class="button-collapse right"> <i class="material-icons">menu
-                    
-                </i> </a>
-                
-            </div>
-
-        </nav>
-    </div>
+                    <ul class="right ">
+                        <li><a href="#home"> Home </a></li>
+                        <li><a href="#quem-sou"> Quem Sou </a></li>
+                        <li><a href="#certificacoes"> Certificações </a></li>
+                        <li><a href="#redes-sociais"> Redes Sociais </a></li>
+                        <li><a href="#fale-comigo"> Fale Comigo </a></li>
+                    </ul>     
+                </div>
+            </nav>
+        </div>
     </header>
-    <section class="home bloco">
+    <!-- HOME -->
+    <section class="home bloco scrollspy" id="home">
         <div class="row container banner">
             <div class="col s12 center">
                 <h2>Seja Bem Vindo(a) </h2>
-                <p> Sou o Jociel Jesus, satisfação tê-lo(a) aqui comigo, aproveita que chegou até aqui e saiba mais sobre mim, conheça a minha história, meu currículo, cursos, certificações e mais me acompanha nas redes socias. Gostaria muito de ser seu amigo. Aguardo o seu retorno. Grato. Jociel Jesus.</p>
-                <div class="row"> 
-                    <a class=" btn btn-large blue_logo">Sobre Mim </a>
-                    <a class="btn btn-large  white_logo"> Redes Sociais </a>
+                <p> Sou o Jociel Jesus, satisfação ter você aqui comigo,
+                     aproveita que chegou até aqui e saiba mais sobre mim, 
+                     conheça a minha história, certificações, faz melhor me acompanha pelas redes socias. <br>
+                     Gostaria muito de tê-lo(a) como amigo(a). <br> Aguardo o seu contato. <br> Grato. <br> Jociel Jesus.</p>
+            </div>
+        </div>
+    </section>
+    <!-- QUEM SOU -->
+    <section class="quem-sou bloco scrollspy" id="quem-sou">
+          <div class="row container">
+              <div class=" col s12 ">
+                  <h2 >Quem Sou</h2>
+              </div>
+              <div class="col s12 l6">
+                  <p class="texto_justificado"> Nascido em 1997 numa cidade chamada Olindina um município 
+                      brasileiro do estado da Bahia localizado em um entroncamento rodoviário regional a 43,7 km da cidade sergipana 
+                      de Tobias Barreto e distante aproximadamente 200 km da capital baiana, Salvador. Filho do Sr. Jonas e a Sra. Clarinda
+                    é o único em meio a quatro meninas e residiu até o termino do ensino médio com seus 17 anos com seus pais. Saiu de casa e 
+                    atualmente reside em Feira de Santana tambem na Bahia com sua noiva Jéssica, cursa o último período do curso de Desenvolvimento de Sistemas 
+                    ofertado pelo Senai Bahia e trabalha na Secretaria de Desenvolvimento Social da mesma cidade. Cheio de Sonhos, busca aperfeiçoamento
+                pessoal e profissional a todo momento e sonha um dia poder trabalhar desenvolvendo sistemas voltados a área de tecnologia assistiva 
+                e acessibilidade.</p>
+              </div>
+              <div class="col s12 l6">
+                  <div class="carousel carousel-slider border" data-indicators="true" >
+                      <a href="#" class="carousel-item"><img src="img/praia.jpg"  ></a>
+                      <a href="#" class="carousel-item"><img src="img/olindina2.jpg" ></a>
+                      <a href="#" class="carousel-item"><img src="img/familia.jpg"  ></a>
+                      <a href="#" class="carousel-item"><img src="img/pequenos.jpg"></a>
+                      <a href="#" class="carousel-item"><img src="img/noiva.jpg"  ></a>
+                      <a href="#" class="carousel-item"><img src="img/honda2.jpg" ></a>
+                      
+                  </div>
+            </div>
+          </div>
+    </section>
+    <!-- CERTIFICAÇÕES -->
+    <section class="certificacoes bloco scrollspy" id="certificacoes">
+          <div class="row container ">
+              <div class="col s12">
+                  <h2>Certificações</h2>  
+              </div>
+          </div>
+          <div class="row container">
+              <!-- Omni Stack -->
+              <article class="col s6 m4 l3">
+                  <div class="card">
+                      <div class="card-image">
+                        <img src="img/omni.png" alt="certificado semana omnistack" class="materialboxed" width="100%">
+                        <a href="#omni-modal" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                      </div>
+                      <div class="card-content">
+                        <h5>Semana OmniStack</h5>
+                        <p>Ofertada pela Rocketseat e ministrada por Diego Schell Fernandes.</p>
+                      </div>
+                  </div>
+                  <!-- Modal Omni-->
+                  <div class="modal" id="omni-modal">
+                      <div class="modal-content">
+                        <h3> 11ª Semana OmniStack </h3>
+                          <img src="img/omni.png" alt="omnistack" width="100%">
+                      </div>
+                      <div class="modal-footer">
+                          <a href="" class="btn btn-modal modal-action modal-close"> Sair </a>
+                      </div>
+                  </div>
+              </article>
+              <article class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/bancodedados.png" alt="Banco de Dados " class="materialboxed" width="100%">
+                      <a href="#banco-modal" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                      <h5>Banco de Dados</h5>
+                      <p>Ofertado pela Udemy e ministrada por Diego Mariano.</p>
+                    </div>
+                </div>
+                <!-- MODAL BANCO DE DADOS -->
+                <div class="modal" id="banco-modal">
+                    <div class="modal-content">
+                      <h3> Banco de Dados MySQL </h3>
+                        <img src="img/bancodedados.png" alt="omnistack" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn btn-modal modal-action modal-close"> Sair </a>
+                    </div>
+                </div>
+            </article>
+            <article class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/design.png" alt="Design Responsivo" class="materialboxed" width="100%">
+                      <a href="#design-modal" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                      <h5>Design Responsivo</h5>
+                      <p>Ofertado pela NodeStudio e ministrada por Rodrigo Santos.</p>
+                    </div>
+                </div>
+                <!-- MODAL DESIGN RESPONSIVE-->
+                <div class="modal" id="design-modal">
+                    <div class="modal-content">
+                      <h3> Design Responsivo </h3>
+                        <img src="img/design.png" alt="omnistack" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn btn-modal modal-action modal-close"> Sair </a>
+                    </div>
+                </div>
+            </article>
+            <article class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/scrum.png" alt="Scrum " class="materialboxed" width="100%">
+                      <a href="#scrum-modal" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                      <h5>Scrum</h5>
+                      <p>Ofertado pela Udemy e ministrada por Bruno Coutinho.</p>
+                    </div>
+                </div>
+                <!-- MODAL SCRUM-->
+                <div class="modal" id="scrum-modal">
+                    <div class="modal-content">
+                      <h3> Scrum para Desenvolvedores de Software </h3>
+                        <img src="img/scrum.png" alt="omnistack" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn btn-modal modal-action modal-close"> Sair </a>
+                    </div>
+                </div>
+            </article>
+          </div>
+    </section>
+    <!-- REDES SOCIAIS -->
+    <section class="redes-sociais bloco scrollspy" id="redes-sociais">
+        <div class="row container ">
+            <div class="col s12">
+                <h2>Redes Sociais</h2>  
+            </div>
+        </div>
+        <div class="row container">
+            <!-- FACEBOOK -->
+            <article class="col s4 m3 l2">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/face.png" alt="Facebook" class="materialboxed" width="100%">
+                      <a href="#facebook" class="btn btn-floating  halfway-fab  modal-trigger">
+                          <i class="material-icons ">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+                 <!-- MODAL SCRUM-->
+                 <div class="modal" id="facebook">
+                    <div class="modal-content">
+                      <h3> Facebook </h3>
+                        <img src="img/facebook.jpg" alt="Facebook" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.facebook.com/jocielalvesdejesus" target="_blank" class="btn btn-modal modal-action modal-close"> Conhecer </a>
+                    </div>
+                </div>
+            </article>
+            <!-- GITHUB -->
+            <article class="col s4 m3 l2">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/git.svg" alt="github" class="materialboxed" >
+                      <a href="#github" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons ">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+                 <!-- MODAL SCRUM-->
+                 <div class="modal" id="github">
+                    <div class="modal-content">
+                      <h3> Github </h3>
+                        <img src="img/github.jpg" alt="Github" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/jocieljesus" target="_blank" class="btn btn-modal modal-action modal-close "> Conhecer </a>
+                    </div>
+                </div>
+            </article>
+             <!-- INSTAGRAN -->
+             <article class="col s4 m3 l2">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/insta.png" alt="Instagran" class="materialboxed" width="100%">
+                      <a href="#instagran" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+                 <!-- MODAL SCRUM-->
+                 <div class="modal" id="instagran">
+                    <div class="modal-content">
+                      <h3> Instagran </h3>
+                        <img src="img/instagran.jpg" alt="Instagran" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.instagram.com/jocieldejesus/" target="_blank" class="btn btn-modal modal-action modal-close "> Conhecer </a>
+                    </div>
+                </div>
+            </article>
+            <!-- Linkedin -->
+            <article class="col s4 m3 l2">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/linke.png" alt="Linkedin" class="materialboxed" width="100%">
+                      <a href="#linkedin" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+                 <!-- MODAL SCRUM-->
+                 <div class="modal" id="linkedin">
+                    <div class="modal-content">
+                      <h3> Linkedin </h3>
+                        <img src="img/linkedin.jpg" alt="linkedin" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://br.linkedin.com/in/jociel-jesus-6a9297146?trk=people-guest_people_search-card" target="_blank" class="btn btn-modal modal-action modal-close  "> Conhecer </a>
+                    </div>
+                </div>
+            </article>
+            <!-- TWITTER -->
+            <article class="col s4 m3 l2">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/twit.svg" alt="Twitter" class="materialboxed" width="100%">
+                      <a href="#twitter" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+                 <!-- MODAL SCRUM-->
+                 <div class="modal" id="twitter">
+                    <div class="modal-content">
+                      <h3> Twitter </h3>
+                        <img src="img/twitter.jpg" alt="twitter" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://twitter.com/jocieljesus" target="_blank" class="btn btn-modal modal-action modal-close "> Conhecer </a>
+                    </div>
+                </div>
+            </article>
+            <!--WHATSAPP -->
+            <article class="col s4 m3 l2">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/whats.png" alt="whatsappn" class="materialboxed" width="100%">
+                      <a href="#whatsapp" class="btn btn-floating  halfway-fab blue-logo modal-trigger">
+                          <i class="material-icons">more_horiz</i>
+                      </a>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+                 <!-- MODAL SCRUM-->
+                 <div class="modal" id="whatsapp">
+                    <div class="modal-content">
+                      <h3> Whatsapp </h3>
+                        <img src="img/whatsapp.jpg" alt="whatsapp" width="100%">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://wa.me/5575998227792" target="_blank" class="btn btn-modal modal-action modal-close "> Conhecer </a>
+                    </div>
+                </div>
+            </article>
+    </section>
+    <!-- FALE COMIGO -->
+    <section class="fale-comigo bloco scrollspy" id="fale-comigo">
+        <div class="row container">
+            <div class=" col s12 ">
+               <h2>Fale Comigo</h2>
+            </div>
+            <div class=" col s12 m6 l4">
+                <div class=" mapa transparent"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.894323315046!2d-38.96496858561479!3d-12.25543014915296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7143790361def1d%3A0xc509cdd144894ccc!2sR.%20Bar%C3%A3o%20de%20Cotegipe%20-%20Centro%2C%20Feira%20de%20Santana%20-%20BA%2C%2040301-110!5e0!3m2!1spt-BR!2sbr!4v1587232199816!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="informacoes blue-logo white-text "> 
+                    <h4>Endereço</h4>
+                    <p>Rua Barão de Cotegipe, <br>
+                    Centro, Feira de Santana - Ba </p>
+                    <h4>Contatos</h4>
+                    <p>(75) 99822-7792 <br>
+                    (75) 99982-6255</p>
+                    <h4>Email</h4>
+                    <p>jocielalvesdejesus@gmail.com</p>
+                </div>
+            </div>
+            <div class=" col s12 m6 l4">
+                <div class="formulario white  black-text">
+                    <h4>Fale comigo</h4>
+                    <p>Dúvidas, Críticas ou Sujestões? </p>
+                    <form action="" method="POST" >
+                        <div class="input-field">
+                            <input type="text" name="name" id="name">
+                            <label for="name"> Seu Nome </label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" name="email" id="email">
+                            <label for="email"> Seu Email </label>
+                        </div>
+                        
+                        <div class="input-field">
+                            <input type="text" name="subject" id="subject">
+                            <label for="subject"> Assunto </label>
+                        </div>
+                        <div class="input-field">
+                            <textarea id="message" class="materialize-textarea"></textarea>
+                            <label for="maessage"> Mensagem </label>
+                        </div>
+                        <button class="btn blue-logo" type="submit">Enviar</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-
-    <footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
-        </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--RODAPÉ -->
+    <footer class="rodape">
+        <div class="row container center">
+            <img src="img/logo.png"  class="logo-rodape"  >
+            <p class="white-text"> © Jociel Jesus 2020 - Todos os direitos reservados.</p>
+        </div>
     </footer>
+        <!--Codigo JavaScript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQUERY-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><!--MATERIALIZE-->
+       <!--Java Script-->
+       <script>
+            //INICIALIZAÇÃO
+            $(document).ready(function(){
+                $(".scrollspy").scrollSpy({
+                    scrollOffset:0
+                });
+                //CAROUSEL DE IMAGENS
+                $(".carousel.carousel-slider").carousel({
+                    fullwidth:true
+                });
+                // MODAL
+                $(".modal").modal();
+
+                //AUTOPLAY
+                function autoplay(){
+                    $(".carousel").carousel("next");
+                    setTimeout(autoplay, 3000);
+                }
+                autoplay();
+
+            });
+            //ADICIONANDO NAV-COLOR
+            $(window).on("scroll", function(){
+                if ($(window).scrollTop()>100){
+                    $(".navbar").addClass("nav-color");
+                } else {
+                    $(".navbar").removeClass("nav-color");
+                }
+            });
+        </script>
 </body>
 </html>
